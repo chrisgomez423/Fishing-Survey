@@ -8,6 +8,157 @@
 
 <body>
 	<h1 id="title">Fishing Survey</h1>
+	<p id="description">This is a survey about fishing.</p>
+	<form id="survey-form">
+		<label id="name-label" for="name">
+			Name<br>
+			<input id="name" type="text" placeholder="Enter name" required>
+		</label><br>
+		<label id="email-label" for="email">
+			Email<br>
+			<input id="email" type="email" placeholder="Enter email" required>
+		</label><br>
+		<label id="number-label">
+			Age<br>
+			<input id="number" type="number" placeholder="Age" min="10" max="99">
+		</label><br>
+		<label>
+			What is your favorite fish?<br>
+			<select id="dropdown" name="fish species">
+				<option value="select">...</option>
+				<option value="African Pompano">African Pompano</option>
+				<option value="Albacore">Albacore</option>
+				<option value="Alligator Gar">Alligator Gar</option>
+				<option value="Almaco Jack">Almaco Jack</option>
+				<option value="American Eel">American Eel</option>
+				<option value="American Shad">American Shad</option>
+				<option value="Apache Trout">Apache Trout</option>
+				<option value="Arctic Char">Arctic Char</option>
+				<option value="Artic Grayling">Artic Grayling</option>
+				<option value="Atlantic Bonito">Atlantic Bonito</option>
+				<option value="Atlantic Cod">Atlantic Croaker</option>
+				<option value="Altantic Halibut">Altantic Halibut</option>
+				<option value="Atlantic Salmon">Atlantic Salmon</option>
+				<option value="Atlantic Spadefish">Atlantic Spadefish</option>
+				<option value="Bigeye Trevally">Bigeye Trevally</option>
+				<option value="Bigmouth Buffalo">Bigmouth Buffalo</option>
+				<option value="BLack Bullhead">BLack Bullhead</option>
+				<option value="Black Crappie">Black Crappie</option>
+				<option value="Black Drum">Black Drum</option>
+				<option value="Black Grouper">Black Grouper</option>
+				<option value="Black Marlin">Black Marlin</option>
+				<option value="Black Sea Bass">Black Sea Bass</option>
+				<option value="Black Skipjack">BLack Skipjack</option>
+				<option value="Blackfin Tuna">Blackfin Tuna</option>
+				<option value="BLacktip Shark">Blacktip Shark</option>
+				<opiton value="Blue Catfish">Blue Catfish</opiton>
+				<option value="Blue Marlin">Blue Marlin</option>
+				<option value="Blue Shark">BLue Shark</option>
+				<option value="Bluefin Trevally">Bluefin Trevally</option>
+				<option value="Bluefish">BLuefish</option>
+				<option value="Bluegill">Bluegill</option>
+				<option value="Bonefish">Bonefish</option>
+				<option value="Bonnethead Shark">Bonnethead Shark</option>
+				<option value="Bowfin">Bowfin</option>
+				<option value="Brook Trout">Brook Trout</option>
+				<option value="Broomtail Grouper">Broomtail Grouper</option>
+				<option value="Brown Bullhead">Brown Bullhead</option>
+				<option value="Brown Trout">Brown Trout</option>
+				<optoin value="Bull Trout">Bull Trout</optoin>
+				<option value="Burbot">Burbot</option>
+				<option value="Butterfly Peacock Bas">Butterfly Peacock Bass</option>
+				<option value="California Corbina">California Corbina</option>
+				<option value="California Halibut">California Halibut</option>
+				<option value="California Yellowtail">California Yellowtail</option>
+				<option value="Cero Mackerel">Cero Mackerel</option>
+				<option value="Chain Pickerel">Chain Pickerel</option>
+				<option value="Channel Catfish">Channel Catfish</option>
+				<option value="Chum Salmon">Chum Salmon</option>
+				<option value="Cobia">Cobia</option>
+				<option value="Coho Salmon">Coho Salmon</option>
+				<option value="Common Carp">Common Carp</option>
+				<option value="Conger">Conger</option>
+				<option value="Crevalle Jack">Crevalle Jack</option>
+				<option value="Cubera Snapper">Cubera Snapper</option>
+				<option value="Cutthroat Trout">Cutthroat Trout</option>
+				<option value="Dogtooth Tuna">Dogtooth Tuna</option>
+				<option value="Dolly Varden">Dolly Varden</option>
+				<option value="Dolphinfish">Dolphinfish</option>
+				<option value="Flathead Catfish">Flathead Catfish</option>
+				<option value="Florida Gar">Florida Gar</option>
+				<option value="Flounder">Flounder</option>
+				<option value="Freshwater Drum">Frehwater Drum</option>
+				<option value="Gag Grouper">Gag Grouper</option>
+				<option value="Gaint Trevally">Gaint Trevally</option>
+				<option value="Golden Trout">Golden Trout</option>
+				<option value="Grass Carp">Grass Carp</option>
+				<option value="Great Barracuda">Great Barrcuda</option>
+				<option value="Greater Amberjack">Greater Amberjack</option>
+				<option value="Green Sunfish">Green Sunfish</option>
+				<option value="Hammerhead Shark">Hammerhead Shark</option>
+				<option value="Hogfish">Hogfish</option>
+				<option value="Horse-Eye Jack">Horse-Eye Jack</option>
+				<option value="Inconnu">Inconnu</option>
+				<option value="Kelp Bass">Kelp Bass</option>
+				<option value="King Mackerel">King Mackerel</option>
+				<option value="King Salmon">King Salmon</option>
+				<option value="Labyfish">Ladyfish</option>
+				<option value="Lake Trout">Lake Trout</option>
+				<option value="Lake Whitefish">Lake Whitefish</option>
+				<option value="Largemouth Bass">largemouth Bass</option>
+				<option value="Lincod">Lincod</option>
+				<option value="Little Tunny">Little Tunny</option>
+				<option value="Longbill Spearfish">Longbill Spearfish</option>
+				<option value="Longnose Gar">Longnose Gar</option>
+				<option value="Mako Shark">Mako Shark</option>
+				<option value="Mangrove Snapper">Mangrove Snapper</option>
+				<option value="Mountain Whitefish">Mountain Whitefish</option>
+				<option value="Muskellunge">Muskellunge</option>
+				<option value="Mutton Snapper">Mutton Snapper</option>
+				<option value="Northern Pike">Norther Pike</option>
+				<option value="Northern Pikeminnow">Northern Pikeminnow</option>
+				<option value="Oscar">Oscar</option>
+				<option value="Pacific Bonito">Pacific Bonito</option>
+				<option value="Pacific Cod">Pacific Cod</option>
+				<option value="Pacific Crevalle Jack">Pacific Crevalle Jack</option>
+				<option value="Pacific Halibut">Pacific Halibut</option>
+				<option value="Pacific Sierra Mackerel">Pacific Sierra Mackerel</option>
+				<option value="Paddlefish">Paddlefish</option>
+				<option value="Permit">Permit</option>
+				<option value="Pink Salmon">Pink Salmon</option>
+				<option value="Pollock">Pollock</option>
+				<option value="Pompano">Pompano</option>
+				<option value="Porbeagle Shark">Porbeagle Shark</option>
+				<option value="Pumpkinseed Sunfish">Pumpkinseed Sunfish</option>
+				<option value="Rainbow Runner">Rainbow Runner</option>
+				<option value="Rainbow Trout">Rainbow Trout</option>
+				<option value="Red Drum">Red Drum</option>
+				<option value="Red Grouper">Red Grouper</option>
+				<option value="Red Snapper">Red Snapper</option>
+				<option value="Reddbreast Sunfish">Redbreast Sunfish</option>
+				<option value="Redear Sunfish">Redear Sunfish</option>
+				<option value="Redeye Bass">Redeye Bass</option>
+				<option value="Rock Bass">Rock Bass</option>
+				<option value="Round Whitefish">Round Whitefish</option>
+				<option value="Sailfish">Sailfish</option>
+				<option value="Sauger">Sauger</option>
+				<option value="Saugeye">Saugeye</option>
+				<option value="Scamp Grouper">Scamp Grouper</option>
+				<option value="Sheephead">Sheephead</option>
+				<option value="Shoal Bass">Shoal Bass</option>
+				<option value="Shortbill Spearfish">Shortbill Spearfish</option>
+				<option value="Shorthead Redhorse">Shorthead Redhorse</option>
+				<option value="Shortnose Gar">Shortnose Gar</option>
+				<option value="Silver Redhorse">Silver Redhorse</option>
+				<option value="Skipjack Tuna">Skipjack Tuna</option>
+				<option value="Smallmouth Bass">Smallmouth Bass</option>
+				
+			</select>
+		</label><br>
+		<label>
+			
+		</label>
+	</form>
 </body>
 	
 	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
